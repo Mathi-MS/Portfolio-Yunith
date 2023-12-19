@@ -1450,10 +1450,6 @@ body {
         border-style: none;
         width: 99%;
     }
-    #skill {
-        background-color: #282828;
-        padding: 60px 40px 60px 40px;
-    }
     #me h2 {
         text-align: center;
         font-family: 'Product-Bold';
@@ -1519,6 +1515,10 @@ body {
         margin: 10px 0px;
         border: solid 2px #0cb550;
 
+    }
+    #skill {
+        background-color: #282828;
+        padding: 60px 37px;
     }
 }
 
