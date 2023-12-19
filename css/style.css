@@ -1496,6 +1496,30 @@ body {
         font-size: 20px;
         color: white;
     }
+    #me .me-right {
+        padding: 0px 0px;
+        text-align: left;
+    }
+    #port .nav-tabs .nav-link {
+        color: #495057;
+        background-color: transparent;
+        border: none;
+        font-family: 'Montserrat-Medium';
+        font-size: 30px;
+        color: white;
+        display: block;
+        border: solid 2px #0cb550;
+        width: 250px;
+        padding: 0px;
+        margin: 10px 0px;
+    }
+    #port .nav-tabs .nav-link:hover {
+        color: white;
+        background-color: #0cb550;
+        margin: 10px 0px;
+        border: solid 2px #0cb550;
+
+    }
 }
 
 @media(max-width:391px) {
@@ -1578,6 +1602,10 @@ body {
         margin: 10px 0px;
         border: solid 2px #0cb550;
 
+    }
+    #me {
+        background-color: #303030;
+        padding: 60px 40px 1px 40px;
     }
 }
 
