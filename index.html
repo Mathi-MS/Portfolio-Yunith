@@ -527,6 +527,22 @@
       cursor.style.backgroundColor = 'transparent';
     };
     </script>
+    <script>
+        let mouseCursor = document.querySelector(".cursor");
+        window.addEventListener("mousemove",cursor)
+        function cursor(e) {
+            mouseCursor.style.top = e.pageY +"px";
+            mouseCursor.style.left = e.pageX +"px";
+        }
+    </script>
+    <script>
+        let mouseCursortwo = document.querySelector(".cursortwo");
+        window.addEventListener("mousemove",cursor)
+        function cursor(e) {
+            mouseCursortwo.style.top = e.pageY +"px";
+            mouseCursortwo.style.left = e.pageX +"px";
+        }
+    </script>
 </body>
 
 

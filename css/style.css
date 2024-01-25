@@ -68,7 +68,26 @@
     src: url('../fonts/Montserrat-Medium_0.ttf');
 }
 
-*,
+.cursor{
+    height:30px;
+    width: 30px;
+    position: absolute;
+    border-radius: 200px;
+    border: solid 2px #0cb550;
+    z-index: 9999999;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    height:5px;
+    background-color:#0cb550;
+    border-radius: 200px;
+    width:5px;
+}
+*,      
 *:before,
 *:after {
   box-sizing: border-box;
