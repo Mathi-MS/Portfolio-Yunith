@@ -610,6 +610,7 @@ body {
     width: 100%;
     height:650px;
     position: relative;
+    overflow: hidden;
 }
 #about .rows{
     display: flex;
@@ -1165,6 +1166,14 @@ body {
 }
 
 @media(max-width:1024px) {
+    .social-media {
+        z-index: 999999999999999999999999999999999999999999999999999;
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        /* margin: 0px auto; */
+        justify-content: center;
+    }
     #about .about-right {
         display: none;
     }
